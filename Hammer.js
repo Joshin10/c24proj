@@ -13,16 +13,16 @@ class Hammer{
 display(){
     var pos=this.body.postion
     pos.x=mouseX
-    pos.y=mouseY
+     pos.y=mouseY
     var angle=this.body.angle;
-    Push();
-    translate(pos.x.pos.y);
+    push();
+     translate(pos.x.pos.y);
     rotate(angle);
     rectMode(CENTER);
     fill("yellow")
     stroke("black")
     rect(0,0,this.width,this.height);
-    Pop();
+    pop();
 
 }
 }

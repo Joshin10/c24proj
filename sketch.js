@@ -4,7 +4,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 
 var hammer,stone,plane,rubber
-var engine,world
+var engine,world,body
 
 function setup() {
 	createCanvas(1200, 600);

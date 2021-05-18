@@ -5,7 +5,7 @@ class Rubber{
     'friction':5,
     'resititution':1
     };
-    this.body=Bodies.circle(x,y,(this.r-20)/2,options);
+    this.body=Bodies.circle(x,y,(r-20)/2,options,30);
     this.x=x
     this.y=y
     this.r=r
@@ -14,11 +14,11 @@ class Rubber{
 display(){
     var pos=this.body.postion
     push();
-    translate(pos.x.pos.y);
+     translate(pos.x.pos.y);
     ellipseMode(CENTER);
-    fill(balck  )
+    fill( "0" )
     ellipse(0,0,this.r,this.r);
     pop();
 
 }
-}
+}   
