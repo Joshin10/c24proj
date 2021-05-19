@@ -5,20 +5,20 @@ class Rubber{
     'friction':5,
     'resititution':1
     };
-    this.body=Bodies.circle(x,y,(r-20)/2,options,30);
+    this.body=Bodies.circle(x,y,(this.r-20)/2,options);
     this.x=x
     this.y=y
     this.r=r
     World.add(world,this.body)
 }
 display(){
-    var pos=this.body.postion
+    var pos=this.body.position
     push();
-     translate(pos.x.pos.y);
+    translate(pos.x,pos.y);
     ellipseMode(CENTER);
-    fill( "0" )
+    fill(balck  )
     ellipse(0,0,this.r,this.r);
     pop();
 
 }
-}   
+}

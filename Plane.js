@@ -15,4 +15,3 @@ class Plane {
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
-
